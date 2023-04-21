@@ -12,9 +12,9 @@ terraform {
   # cf. https://www.terraform.io/language/settings/backends/azurerm
   backend "azurerm" {
     resource_group_name  = "RG-AKSCluster"         # mettre ici le nom du resource group de vos ressource
-    storage_account_name = "backendterrapierrc"      # mettre le nom du compte de stockage créer dans le lab 1
+    storage_account_name = "terraformaubin"      # mettre le nom du compte de stockage créer dans le lab 1
     container_name       = "tfstate"
-    key                  = "pipeline-gh.terraform.tfstate" 
+    key                  = "pipeline-tina.terraform.tfstate" 
     # pour les options d'authentification au backend Azure Storage cf. https://www.terraform.io/language/settings/backends/azurerm
     # sas_token = "sp=racwdli&st=2022-03-11T14:00:16Z&se=2022-03-11T22:26:16Z&spr=https&sv=2020-08-04&sr=c&sig=iiu05uUa%2Bh9tdqO%2F%2FwJEGZlkeJR5Ufgna1rshTaVv7s%3D"
         
