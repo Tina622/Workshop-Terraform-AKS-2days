@@ -79,7 +79,7 @@ jobs: # 3 jobs qui s'enchaînent à la suite : 1 analyze-code - 2 test-unitaire 
 
       - name: Login Azure Container Registry
         run: |
-          docker login acrtina12.azurecr.io --username "npmtina" --password "bCY8Q~HqVm4PD26aqm2SlYT2eUDVvtUR5Zzn6bBJ"
+          docker login acrtina12.azurecr.io --username "396bb23a-349a-4878-9a38-6f6c3f2be86b" --password "bCY8Q~HqVm4PD26aqm2SlYT2eUDVvtUR5Zzn6bBJ"
 
       - name: Push de l'image de l'application
         run: |
